@@ -9,7 +9,7 @@ table = "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, username text
 cursor.execute(table)
 
 # Creates the table that will store the name of the tasks and their respective descriptions.
-table = "CREATE TABLE IF NOT EXISTS tasks (name text PRIMARY KEY, description text)" #might need to change that real to text maybe.
+table = "CREATE TABLE IF NOT EXISTS tasks (name text PRIMARY KEY, description text)"
 cursor.execute(table)
 
 connection.commit()
